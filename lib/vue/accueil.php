@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>AAAccupuncture</title>
-        <meta charset="utf-8">
-        <link href="css/style.css" rel="stylesheet">
-
-    </head>
-    <body>
-        <?php include_once('lib/vue/header.php');?>
-    </body>
-</html>
+<?php
+    echo file_get_contents('/fragments/header.txt', true); //true permet d'indiquer que l'on prend la racine du projet comme origine
+    //content here
+    echo file_get_contents('/fragments/footer.txt',true);
+?>
