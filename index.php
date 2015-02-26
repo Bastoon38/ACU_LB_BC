@@ -11,10 +11,10 @@
 
     elseif($_GET['pageID'] == 'inscription')
     {
-        echo 'inexistant';
+        include_once('lib/control/inscriptionCTRL.php');
     }
     elseif($_GET['pageID'] == 'info')
     {
-        echo 'inexistant';
+        include_once('lib/control/infoCTRL.php');
     }
 ?>

@@ -1,7 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: lbl
- * Date: 26/02/2015
- * Time: 11:35
- */
+    include_once('lib/model/userModel.php');
+
+$modUser = new userModel();
+
+$listUser = $modUser->getAll();
+$test = $modUser->getById(1);
+
+include_once('lib/vue/info.php');

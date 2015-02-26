@@ -1,3 +1,2 @@
 <?php
-    include('lib/vue/accueil.php');
-?>
+    include_once('lib/vue/accueil.php');

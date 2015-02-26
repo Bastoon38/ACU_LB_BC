@@ -1,7 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: lbl
- * Date: 26/02/2015
- * Time: 11:35
- */
+    include_once('lib/model/userModel.php');
+    include_once('lib/vue/inscription.php');
+
+    $modUser = new userModel();
+
+    $utilisateur = $modUser->getAll();
