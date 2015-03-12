@@ -3,6 +3,16 @@ body
   background-image: url('../img/background/default.png');
 }
 
+.alert
+{
+  color : #ff0000;
+}
+
+.success
+{
+  color : #00ba10;
+}
+
 .container
 {
   margin-top: 40px;

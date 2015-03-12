@@ -1,0 +1,12 @@
+<form method="post" action="index.php?pageID=connexion" >
+    <ul class="formulaire">
+        <li>
+            <label for="mail">Email* :</label>
+            <input type="email" id="mail" name="mail" required/>
+        </li>
+        <li>
+            <label for="pwd">Mot de passe* :</label>
+            <input type="password" id="pwd" name="pwd" required/>
+        </li>
+    </ul>
+</form>

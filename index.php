@@ -19,6 +19,6 @@
     }
     elseif($_GET['pageID'] == 'connexion')
     {
-        echo 'inexistant';
+        include_once('lib/control/connexionCTRL.php');
     }
 ?>

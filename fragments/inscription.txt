@@ -1,22 +1,21 @@
-<h1>test formulaire</h1>
 <form method="post" action="index.php?pageID=inscription" >
     <ul class="formulaire">
         <li>
-            <label for="prenom">Prénom :</label>
-            <input type="text" id="prenom" required/>
+            <label for="prenom">Prénom* :</label>
+            <input type="text" id="prenom" name="prenom" required/>
         </li>
         <li>
-            <label for="nom">Nom :</label>
-            <input type="text" id="nom" required/>
+            <label for="nom">Nom* :</label>
+            <input type="text" id="nom" name="nom" required/>
         </li>
         <li>
-            <label for="mail">Email :</label>
-            <input type="email" id="mail" required/>
+            <label for="mail">Email* :</label>
+            <input type="email" id="mail" name="mail" required/>
         </li>
         <li>
-                    <label for="pwd">Mot de passe :</label>
-                    <input type="password" id="mail" required/>
-                </li>
+            <label for="pwd">Mot de passe* :</label>
+            <input type="password" id="pwd" name="pwd" required/>
+        </li>
         <li>
             <input type="submit" value="Valider"/>
         </li>
