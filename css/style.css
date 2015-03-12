@@ -103,7 +103,6 @@ body
 .formulaire
 {
   list-style-type: none;
-  background-image: url('../img/background/actions.png');
 }
 
 .formulaire input[type=text] input[type=mail]
