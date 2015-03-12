@@ -99,3 +99,21 @@ body
   border-bottom-left-radius: 6px 6px ;
   border-bottom-right-radius: 6px 6px ;
 }
+
+.formulaire
+{
+  list-style-type: none;
+  background-image: url('../img/background/actions.png');
+}
+
+.formulaire input[type=text] input[type=mail]
+{
+  width: 250px;
+}
+
+.formulaire label {
+  width: 110px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 6px;
+}

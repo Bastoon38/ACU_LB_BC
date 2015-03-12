@@ -6,11 +6,11 @@ echo file_get_contents('/fragments/header.txt', true); //true permet d'indiquer 
     <ul class="formulaire">
         <li>
             <label for="prenom">Prénom :</label>
-            <input type="text  " id="prenom" required/>
+            <input type="text" id="prenom" required/>
         </li>
         <li>
             <label for="nom">Nom :</label>
-            <input type="text  " id="nom" required/>
+            <input type="text" id="nom" required/>
         </li>
         <li>
             <label for="mail">Email :</label>
