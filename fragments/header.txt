@@ -14,9 +14,9 @@
             <nav class="nav">
                 <ul>
                     <li><a href="index.php?pageID=accueil">Accueil</a></li>
-                    <li><a href="#Pathologies">Pathologies</a></li>
-                    <li><a href="#Information">Information</a></li>
-                    <li><a href="#Connexion">Connexion</a></li>
+                    <li><a href="index.php?pageID=patho">Pathologies</a></li>
+                    <li><a href="index.php?pageID=info">Information</a></li>
+                    <li><a href="index.php?pageID=connexion">Connexion</a></li>
                 </ul>
             </nav>
         </header>

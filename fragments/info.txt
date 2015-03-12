@@ -1,0 +1,30 @@
+<section class="section">
+<h1 id="dev_real">Developpements réalisés</h1>
+<p> Nous avons réaliser ce site internet dans le but de rendre accessible des informations relative
+à une association d’acupuncteurs en médecine traditionnelle chinoise.
+<br /><br />les principales fonctionnalités sont:
+<ul>
+    <li>de disposer d’un service en ligne leur permettant de consulter la liste des symptômes des
+        principales pathologies en acupuncture (voir table 10.1)</li>
+    <li>de pouvoir n’afficher que certaines des pathologies en fonction de différents critères (type de
+        pathologie, choix des méridiens 1, etc., voir la table 10.2)</li>
+    <li>de rechercher les pathologies comportant certains symptômes</li>
+</ul>
+</p>
+<h1 id="sources">Sources</h1>
+<p> Je sais pas quoi mettre </p>
+<h1 id="auteurs">Auteurs</h1>
+<ul>
+    <li>Blain Loic</li>
+    <li>Cecillon Bastien</li>
+</ul>
+<h1 id="ress_biblio">Ressources bibliographiques</h1>
+<p> Pas besoin on est trop fort... ^^ </p>
+<h1 id="webographie">Webographie</h1>
+<ul>
+    <li><a href="http://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/votre-premiere-page-web-en-html">
+    OpenClassRoom -  Apprenez à créer votre site web avec HTML5 et CSS3</a></li>
+    <li><a href="http://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql">
+    OpenClassRoom -  Concevez votre site web avec PHP et MySQL</a></li>
+</ul>
+</section>

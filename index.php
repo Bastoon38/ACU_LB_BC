@@ -17,4 +17,8 @@
     {
         include_once('lib/control/infoCTRL.php');
     }
+    elseif($_GET['pageID'] == 'connexion')
+    {
+        echo 'inexistant';
+    }
 ?>
