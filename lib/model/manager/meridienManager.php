@@ -7,20 +7,27 @@ include('connexion_sql.php');
  * Time: 14:30
  */
 
-class merdidienManager {
+class meridienManager {
     private $_bdd;
 
     public function __construct()
     {
         $this->_bdd = new connexion_sql();
+        $this->arrayMeridien = array();
     }
 
     public function getAll()
     {
+
         $query = $this->_bdd->prepare('SELECT * FROM meridien');
         $query->execute();
-        $result = $query->fetchAll();
 
-        return $result;
+        // On récupère chaque entrée une à une
+        while ($donnees = $query->fetch()) {
+            //$this->arrayMeridien-> = new meridien($donnees)
+            array_push($this->arrayMeridien, new meridien($donnees));
+        }
+
+        return $this->arrayMeridien;
     }
 }

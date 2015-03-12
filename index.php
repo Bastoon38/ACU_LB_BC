@@ -6,7 +6,7 @@
     }
     elseif($_GET['pageID'] == 'patho')
     {
-        echo 'inexistant';
+        include_once('lib/control/pathoCTRL.php');
     }
 
     elseif($_GET['pageID'] == 'inscription')
