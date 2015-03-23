@@ -11,7 +11,8 @@ class user {
     private $nom;
     private $prenom;
     private $mail;
-    private $pwd;
+    private $password;
+
 
     // Constructeur
     public function __construct($args = null) {
@@ -40,8 +41,9 @@ class user {
         return $this->mail;
     }
 
-    public function getPwd()
+
+    public function getPassword()
     {
-        return $this->pwd;
+        return $this->password;
     }
 }

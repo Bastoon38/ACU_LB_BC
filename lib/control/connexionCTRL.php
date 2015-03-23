@@ -1,25 +1,23 @@
 <?php
+include_once('lib/model/entities/user.php');
 include_once('lib/model/manager/userManager.php');
 
 $manUser = new userModel();
-$user = $manUser->
+
 
 if(isset($_POST['mail']) and isset($_POST['pwd']))
 {
-    $result = $manUser->add($_POST['prenom'],$_POST['nom'],$_POST['mail'],$_POST['pwd']);
-    if($result==0)
+    $user = $manUser->getByMail($_POST['mail']);
+    $pass = md5($_POST['pwd']);
+    if($pass==$user->getPassword())
     {
-        $successMessage='Vous ètes maintenant membre du site !';
-    }
-    elseif($result==23000)
-    {
-        $errorMessage='email déjà utilisé';
+        $successMessage='Bienvenue '.$user->getPrenom();
     }
     else
     {
-        $errorMessage="Une erreur s'est produite !";
+        $errorMessage='utilisateur ou mot de passe incorrect';
     }
-}
 
-include_once('lib/vue/connexion.php');
+}
+    include_once('lib/vue/connexion.php');
 ?>

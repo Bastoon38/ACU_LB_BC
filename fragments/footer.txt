@@ -1,3 +1,6 @@
-<p>2015© Copyright Blain & Cecillon</p>
+        </div>
+        <footer class=footer>
+            <p>2015© Copyright Blain & Cecillon</p>
+        </footer>
     </body>
 </html>

@@ -1,6 +1,5 @@
 <?php
 include('connexion_sql.php');
-//include_once('../entities/user.php');
 class userModel {
 
     private $_bdd;
@@ -42,7 +41,9 @@ class userModel {
         $query->execute();
         $result = $query->fetch();
 
-        return new user($result);
+        $utilisateur = new user($result);
+
+        return $utilisateur;
     }
 
     public function getAll()

@@ -3,6 +3,11 @@ body
   background-image: url('../img/background/default.png');
 }
 
+.content
+{
+  padding-top: 40px;
+}
+
 .alert
 {
   color : #ff0000;
@@ -21,8 +26,12 @@ body
 /**HEADER**/
 .header
 {
-  margin: 0px;
-  padding: 0px;
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: -8px -8px;
+  padding: 0;
   border-bottom: 4px solid #ef705b;
   background-image: url('../img/background/dark.png');
 }
@@ -72,6 +81,18 @@ body
   color: #FFFFFF;
   border-bottom: 3px solid #FFFFFF;
 }
+/*
+.footer
+{
+  display: block;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-image: url('../img/background/dark.png');
+  color : #FFFFFF;
+  border-top: 4px solid #ef705b;
+  margin: 0 0 0 -8px;
+}*/
 
 #titre_principal
 {

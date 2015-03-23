@@ -8,5 +8,8 @@
             <label for="pwd">Mot de passe* :</label>
             <input type="password" id="pwd" name="pwd" required/>
         </li>
+        <li>
+            <input type="submit" value="Valider"/>
+        </li>
     </ul>
 </form>
