@@ -24,7 +24,6 @@ class meridienManager {
 
         // On récupère chaque entrée une à une
         while ($donnees = $query->fetch()) {
-            //$this->arrayMeridien-> = new meridien($donnees)
             array_push($this->arrayMeridien, new meridien($donnees));
         }
 
