@@ -1,0 +1,125 @@
+<form method="post" action="index.php?pageID=patho">
+
+</br>
+
+<div class="checkbox_meridien">
+    <div class="checkbox_titre">
+		 Cochez les méridiens à rechercher:</br></br>
+	</div>
+
+    <div class="col">
+            <input type="checkbox" name="meridien[]" id="YinWeiMai" value="YinWeiMai"/>
+            <label for="YinWeiMai">Yin Wei Mai</label>
+            <input type="checkbox" name="meridien[]" id="YangQiaoMai" value="YangQiaoMai"/>
+            <label for="YangQiaoMai">Yang Qiao Mai</label>
+            <input type="checkbox" name="meridien[]" id="YangWeiMai" value="YangWeiMai"/>
+            <label for="YangWeiMai">Yang Wei Mai</label>
+	        <input type="checkbox" name="meridien[]" id="Coeur" value="Coeur"/>
+	        <label for="Coeur">Coeur</label>
+	        <input type="checkbox" name="meridien[]" id="ChongMai" value="ChongMai"/>
+	        <label for="ChongMai">Chong Mai</label>
+	        <input type="checkbox" name="meridien[]" id="DaiMai" value="DaiMai"/>
+	        <label for="DaiMai">Dai Mai</label>
+    </div>
+    <div class="col">
+
+	        <input type="checkbox" name="DuMai" id="DuMai" />
+	        <label for="DuMai">Du Mai</label>
+	        <input type="checkbox" name="Estomac" id="Estomac" />
+	        <label for="Estomac">Estomac</label>
+	        <input type="checkbox" name="Foie" id="Foie" />
+	        <label for="Foie">Foie</label>
+	        <input type="checkbox" name="GrosIntestin" id="GrosIntestin" />
+	        <label for="GrosIntestin">Gros intestin</label>
+	        <input type="checkbox" name="IntestinGrêle" id="IntestinGrêle" />
+	        <label for="IntestinGrêle">Intestin Grêle</label>
+	        <input type="checkbox" name="ProtecteurDuCoeur" id="ProtecteurDuCoeur" />
+	        <label for="ProtecteurDuCoeur">Protecteur du coeur</label>
+    </div>
+    <div class="col">
+
+	        <input type="checkbox" name="Poumon" id="Poumon" />
+	        <label for="Poumon">Poumon</label>
+	        <input type="checkbox" name="Rein" id="Rein" />
+	        <label for="Rein">Rein</label>
+	        <input type="checkbox" name="RenMai" id="RenMai" />
+	        <label for="RenMai">Ren Mai</label>
+	        <input type="checkbox" name="RatePancreas" id="RatePancreas" />
+	        <label for="RatePancreas">Rate Pancréas</label>
+	        <input type="checkbox" name="TripleRechauffeur" id="TripleRechauffeur" />
+	        <label for="TripleRechauffeur">Triple réchauffeur</label>
+	        <input type="checkbox" name="Vessie" id="Vessie" />
+	        <label for="Vessie">Vessie</label>
+	          </div>
+              <div class="col">
+
+	        <input type="checkbox" name="VesiculeBiliaire" id="VesiculeBiliaire" />
+	        <label for="VesiculeBiliaire">Vésicule Biliaire</label>
+
+    </div></br>
+</div>
+
+</br>
+
+<div class="checkbox_types_patho">
+    <div class="checkbox_titre">
+		 Cochez les types de pathologies à rechercher:</br></br>
+	</div>
+
+  <div class="col">
+       <input type="checkbox" name="meridien" id="meridien" />
+       <label for="meridien">Méridien</label>
+       <input type="checkbox" name="organe" id="organe" />
+       <label for="organe">Organe/Viscère</label>
+       <input type="checkbox" name="luo" id="luo" />
+       <label for="luo">Luo</label>
+       <input type="checkbox" name="vaisseaux" id="vaisseaux" />
+       <label for="vaisseaux">Merveilleux vaisseaux</label>
+	   <input type="checkbox" name="jingjin" id="jingjin" />
+	   <label for="jingjin">Jing Jin</label>
+    </div></br>
+    </div>
+
+</br>
+
+<div class="checkbox_caracteristique">
+    <div class="checkbox_titre">
+		 Cochez les caractéristiques à rechercher:</br></br>
+	</div>
+
+   <div class="col">
+       <input type="checkbox" name="plein" id="plein" />
+       <label for="plein">Plein</label>
+       <input type="checkbox" name="chaud" id="chaud" />
+        <label for="chaud">Chaud</label>
+       <input type="checkbox" name="vide" id="vide" />
+        <label for="vide">Vide</label>
+       <input type="checkbox" name="froid" id="froid" />
+       <label for="froid">Froid</label>
+	   <input type="checkbox" name="interne" id="interne" />
+	    <label for="interne">Interne</label>
+	   <input type="checkbox" name="externe" id="externe" />
+	    <label for="externe">Externe</label>
+   </div></br>
+</div>
+
+<div class="envoi">
+	</br><input type="submit" value="envoyer" /></br>
+</div>
+
+<div class="resultat_patho">
+    <div class="resultat_patho_titre">
+		 Liste des résultats:</br></br>
+	</div>
+
+   <div class="liste">
+
+   </div></br>
+</div>
+
+</form>
+
+
+
+
+
