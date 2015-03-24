@@ -1,0 +1,6 @@
+<form method="post" action="index.php?pageID=patho">
+
+<div class="checkbox_meridien">
+    <div class="checkbox_titre">
+		 Cochez les méridiens à rechercher:</br></br>
+	</div>

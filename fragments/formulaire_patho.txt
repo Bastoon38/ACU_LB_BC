@@ -1,14 +1,12 @@
 <form method="post" action="index.php?pageID=patho">
 
-</br>
-
 <div class="checkbox_meridien">
     <div class="checkbox_titre">
 		 Cochez les méridiens à rechercher:</br></br>
 	</div>
 
     <div class="col">
-            <input type="checkbox" name="meridien[]" id="YinWeiMai" value="YinWeiMai"/>
+            <input type="checkbox" name="meridien[]" id="YinWeiMai" value="Yin Wei Mai"/>
             <label for="YinWeiMai">Yin Wei Mai</label>
             <input type="checkbox" name="meridien[]" id="YangQiaoMai" value="YangQiaoMai"/>
             <label for="YangQiaoMai">Yang Qiao Mai</label>
@@ -118,8 +116,3 @@
 </div>
 
 </form>
-
-
-
-
-

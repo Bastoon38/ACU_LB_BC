@@ -10,17 +10,24 @@ include_once('lib/model/entities/meridien.php');
 
 $manMeridien = new meridienManager();
 $liste = $manMeridien->getAll();
+$inputMeridien ="";
 
-//foreach($listePatho as $type) {
-   //echo $type->getType();
-//}
 
 foreach($liste as $meridien) {
+    $inputMeridien .= "<input type=\"checkbox\" name=\"meridien[]\" id=\"".$meridien->getNom()."\" value=\"".$meridien->getNom()."\"";
 
-    //var_dump($meridien); // affiche la variable
-   // echo $meridien->getNom();
-
+    if(isset($_POST['meridien']))
+    {
+        foreach($_POST['meridien'] as $case) {
+            if($case == $meridien->getNom())
+            {
+                $inputMeridien .=" checked ";
+            }
+        }
+    }
+    $inputMeridien .="/>";
+    $inputMeridien .= "<label for=\"".$meridien->getNom()."\">".$meridien->getNom()."</label>";
 }
-    //include_once('lib/vue/patho.php');
+
     include_once('lib/vue/patho.php');
 ?>

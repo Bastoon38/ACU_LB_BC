@@ -1,0 +1,61 @@
+</div>
+
+</br>
+
+<div class="checkbox_types_patho">
+    <div class="checkbox_titre">
+		 Cochez les types de pathologies à rechercher:</br></br>
+	</div>
+
+  <div class="col">
+       <input type="checkbox" name="meridien" id="meridien" />
+       <label for="meridien">Méridien</label>
+       <input type="checkbox" name="organe" id="organe" />
+       <label for="organe">Organe/Viscère</label>
+       <input type="checkbox" name="luo" id="luo" />
+       <label for="luo">Luo</label>
+       <input type="checkbox" name="vaisseaux" id="vaisseaux" />
+       <label for="vaisseaux">Merveilleux vaisseaux</label>
+	   <input type="checkbox" name="jingjin" id="jingjin" />
+	   <label for="jingjin">Jing Jin</label>
+    </div></br>
+    </div>
+
+</br>
+
+<div class="checkbox_caracteristique">
+    <div class="checkbox_titre">
+		 Cochez les caractéristiques à rechercher:</br></br>
+	</div>
+
+   <div class="col">
+       <input type="checkbox" name="plein" id="plein" />
+       <label for="plein">Plein</label>
+       <input type="checkbox" name="chaud" id="chaud" />
+        <label for="chaud">Chaud</label>
+       <input type="checkbox" name="vide" id="vide" />
+        <label for="vide">Vide</label>
+       <input type="checkbox" name="froid" id="froid" />
+       <label for="froid">Froid</label>
+	   <input type="checkbox" name="interne" id="interne" />
+	    <label for="interne">Interne</label>
+	   <input type="checkbox" name="externe" id="externe" />
+	    <label for="externe">Externe</label>
+   </div></br>
+</div>
+
+<div class="envoi">
+	</br><input type="submit" value="envoyer" /></br>
+</div>
+
+<div class="resultat_patho">
+    <div class="resultat_patho_titre">
+		 Liste des résultats:</br></br>
+	</div>
+
+   <div class="liste">
+
+   </div></br>
+</div>
+
+</form>
