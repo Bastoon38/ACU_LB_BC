@@ -81,7 +81,7 @@ body
   color: #FFFFFF;
   border-bottom: 3px solid #FFFFFF;
 }
-/*
+
 .footer
 {
   display: block;
@@ -92,7 +92,7 @@ body
   color : #FFFFFF;
   border-top: 4px solid #ef705b;
   margin: 0 0 0 -8px;
-}*/
+}
 
 
 #titre_principal
@@ -135,6 +135,7 @@ body
 .formulaire
 {
   list-style-type: none;
+  background-color: #FFFFFF;
 }
 
 .formulaire input[type=text] input[type=mail]

@@ -1,0 +1,9 @@
+<aside>
+    <form method="post" action="index.php?pageID=deconnexion" >
+        <ul class="formulaire">
+            <li>
+                <input type="submit" value="Déconnexion"/>
+            </li>
+        </ul>
+    </form>
+</aside>

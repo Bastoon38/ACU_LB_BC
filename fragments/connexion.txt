@@ -1,15 +1,17 @@
-<form method="post" action="index.php?pageID=connexion" >
-    <ul class="formulaire">
-        <li>
-            <label for="mail">Email* :</label>
-            <input type="email" id="mail" name="mail" required/>
-        </li>
-        <li>
-            <label for="pwd">Mot de passe* :</label>
-            <input type="password" id="pwd" name="pwd" required/>
-        </li>
-        <li>
-            <input type="submit" value="Valider"/>
-        </li>
-    </ul>
-</form>
+<aside>
+    <form method="post" action="index.php?pageID=accueil" >
+        <ul class="formulaire">
+            <li>
+                <label for="mail">Email* :</label>
+                <input type="email" id="mail" name="mail" required/>
+            </li>
+            <li>
+                <label for="pwd">Mot de passe* :</label>
+                <input type="password" id="pwd" name="pwd" required/>
+            </li>
+            <li>
+                <input type="submit" value="Connexion"/>
+            </li>
+        </ul>
+    </form>
+</aside>

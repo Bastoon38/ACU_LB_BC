@@ -1,4 +1,5 @@
 <?php
+    session_start();
 
     if(!isset($_GET['pageID'])  || $_GET['pageID'] == 'accueil')
     {
@@ -20,5 +21,9 @@
     elseif($_GET['pageID'] == 'connexion')
     {
         include_once('lib/control/connexionCTRL.php');
+    }
+    elseif($_GET['pageID'] == 'deconnexion')
+    {
+        include_once('lib/control/decoCTRL.php');
     }
 ?>
