@@ -29,4 +29,18 @@ class meridienManager {
 
         return $this->arrayMeridien;
     }
+
+    public function get()
+    {
+
+        $query = $this->_bdd->prepare('SELECT * FROM meridien');
+        $query->execute();
+
+        // On récupère chaque entrée une à une
+        while ($donnees = $query->fetch()) {
+            array_push($this->arrayMeridien, new meridien($donnees));
+        }
+
+        return $this->arrayMeridien;
+    }
 }
