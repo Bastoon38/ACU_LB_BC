@@ -28,4 +28,18 @@ class pathologieManager {
 
         return $this->arrayTypePathologie;
     }
+
+
+    public function getPatho($meridien)
+    {
+
+        $query = $this->_bdd->prepare('SELECT * FROM patho WHERE ');
+        $query->execute();
+
+        while ($donnees = $query->fetch()) {
+            array_push($this->arrayTypePathologie,  new pathologie($donnees));
+        }
+
+        return $this->arrayTypePathologie;
+    }
 }
