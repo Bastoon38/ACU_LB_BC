@@ -149,3 +149,53 @@ body
   vertical-align: top;
   margin: 6px;
 }
+
+
+.checkbox_meridien{
+  background-color: #6c6c70;
+  border: solid;
+  border-color: #ef705b;
+  clear:both
+}
+
+.col{
+  /*float:left;
+  /*width:120px;/*adjust your width */
+}
+.col label, .col input
+{
+  display:inline-block;
+}
+.col label{
+  width:150px;/*adjust your width */
+}
+.col input{
+  width:20px;/*adjust your width */
+}
+
+
+.checkbox_types_patho{
+  background-color: #ffffff;
+  border: solid;
+  border-color: #aeb1ab;
+  clear:both
+}
+
+.checkbox_caracteristique
+{
+background-color: #6c6c70;
+border: solid;
+border-color: #ef705b;
+clear:both
+}
+
+
+
+/****** FOOTER *******/
+
+.copyright{
+
+  display: block;
+  text-align:center;
+
+}
