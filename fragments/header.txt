@@ -16,7 +16,6 @@
                     <li><a href="index.php?pageID=accueil">Accueil</a></li>
                     <li><a href="index.php?pageID=patho">Pathologies</a></li>
                     <li><a href="index.php?pageID=info">Information</a></li>
-                    <li><a href="index.php?pageID=connexion">Connexion</a></li>
                 </ul>
             </nav>
         </header>

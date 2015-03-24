@@ -5,7 +5,7 @@
     {
         echo "<p class=alert>".$errorMessage."</p>";
     }
-    elseif(isset($_SESSION['prenom']))
+    if(isset($_SESSION['prenom']))
     {
         echo file_get_contents('/fragments/deconnexion.txt',true);
     }
