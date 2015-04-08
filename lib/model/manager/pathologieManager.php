@@ -13,6 +13,7 @@ class pathologieManager {
     public function __construct()
     {
         $this->_bdd = new connexion_sql();
+        $this->_bdd->exec("set character set UTF8");
         $this->arrayTypePathologie = array();
     }
 
