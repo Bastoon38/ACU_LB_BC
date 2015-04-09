@@ -17,6 +17,7 @@ class pathologieManager {
         $this->arrayTypePathologie = array();
     }
 
+    /*
     public function getAllType()
     {
 
@@ -29,11 +30,87 @@ class pathologieManager {
 
         return $this->arrayTypePathologie;
     }
-
+*/
 
 
     public function getPatho($meridien,$type,$carac)
     {
-        
+        $query = 'SELECT * FROM v_pathologies WHERE 1';
+
+        if(! empty($meridien))
+        {
+            $clause ='';
+
+            foreach($meridien as $key=> $value)
+            {
+                if(strlen($clause)>0)
+                {
+                    $clause.= sprintf(' OR  meridien like \'%%%s%%\'',$value);
+                }
+                else
+                {
+                    $clause.= sprintf('meridien like \'%%%s%%\'',$value);
+                }
+            }
+
+            $clause = ' AND ( '.$clause.' )';
+            $query .= $clause;
+        }
+
+        if(!empty($type))
+        {
+            $clause ='';
+
+            foreach($type as $key=> $value)
+            {
+                if(strlen($clause)>0)
+                {
+                    $clause.= sprintf(' OR  description like \'%%%s%%\'',$value);
+                }
+                else
+                {
+                    $clause.= sprintf('description like \'%%%s%%\'',$value);
+                }
+            }
+
+            $clause = ' AND ( '.$clause.' )';
+            $query .= $clause;
+        }
+
+        if(!empty($carac))
+        {
+            $clause ='';
+
+            foreach($carac as $key=> $value)
+            {
+                if(strlen($clause)>0)
+                {
+                    $clause.= sprintf(' OR  description like \'%%%s%%\'',$value);
+                }
+                else
+                {
+                    $clause.= sprintf('description like \'%%%s%%\'',$value);
+                }
+            }
+
+            $clause = ' AND ( '.$clause.' )';
+            $query .= $clause;
+        }
+
+        var_dump($query);
+
+        $query = $this->_bdd->prepare($query);
+        $query->execute();
+
+
+        while ($donnees = $query->fetch()) {
+            array_push($this->arrayTypePathologie,  new pathologie($donnees));
+        }
+
+        return $this->arrayTypePathologie;
+
     }
+
+
+
 }

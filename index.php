@@ -24,7 +24,9 @@
     }
     elseif($_GET['pageID'] == 'patho')
     {
-        new rechercheCTRL();
+        $recherche = new rechercheCTRL();
+        if(isset($_POST['prenom'])){$recherche->isConnected();}
+        $recherche->display();
     }
     elseif($_GET['pageID'] == 'resultats')
     {
@@ -32,6 +34,7 @@
         if(isset($_POST['meridien'])){$resultats->setMeridien($_POST['meridien']);}
         if(isset($_POST['type'])){$resultats->setType($_POST['type']);}
         if(isset($_POST['carac'])){$resultats->setCarac($_POST['carac']);}
+        $resultats->filtrer();
     }
     elseif($_GET['pageID'] == 'inscription')
     {

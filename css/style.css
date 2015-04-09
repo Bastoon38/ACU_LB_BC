@@ -207,3 +207,12 @@ clear:both
   text-align:center;
 
 }
+
+table
+{
+  border-collapse: collapse;
+}
+td
+{
+  border : 1px solid black;
+}

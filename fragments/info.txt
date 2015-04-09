@@ -2,7 +2,7 @@
 <h1 id="dev_real">Developpements réalisés</h1>
 <p> Nous avons réaliser ce site internet dans le but de rendre accessible des informations relative
 à une association d’acupuncteurs en médecine traditionnelle chinoise.
-<br /><br />les principales fonctionnalités sont:
+les principales fonctionnalités sont:
 <ul>
     <li>de disposer d’un service en ligne leur permettant de consulter la liste des symptômes des
         principales pathologies en acupuncture (voir table 10.1)</li>

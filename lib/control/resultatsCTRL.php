@@ -12,28 +12,38 @@ class resultatsCTRL {
     private $meridien;
     private $type;
     private $carac;
+    private $manPatho;
 
     function __construct()
     {
-       // $this->vue = new resultatsCTRL();
+        $this->vue = new resultat();
+        $this->manPatho = new pathologieManager();
     }
+
+    public function filtrer()
+    {
+        $liste = $this->manPatho->getPatho($this->meridien, $this->type,$this->carac);
+
+        //var_dump($liste);
+        $this->vue->display($liste);
+
+    }
+
 
     public function setMeridien($meridien)
     {
-        $this->meridien = join(',',$meridien);
-        echo $this->meridien;
+        $this->meridien = $meridien;
+
     }
 
     public function setType($type)
     {
-        $this->type = join(',',$type);
-        echo $this->type;
+        $this->type = $type;
     }
 
     public function setCarac($carac)
     {
-        $this->carac = join(',',$carac);
-        echo $this->carac;
+        $this->carac = $carac;
     }
 
 }

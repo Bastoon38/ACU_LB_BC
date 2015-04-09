@@ -13,6 +13,15 @@ class rechercheCTRL {
     function __construct()
     {
         $this->vue = new recherche();
+    }
+
+    public function isConnected()
+    {
+        $this->vue->setIsConnected();
+    }
+
+    public function display()
+    {
         $this->vue->display();
     }
 
