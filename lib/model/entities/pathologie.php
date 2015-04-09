@@ -8,10 +8,9 @@
 
 class pathologie {
 
-    private $idP;
-    private $mer;
-    private $type;
-    private $desc;
+    private $meridien;
+    private $symptome;
+    private $description;
 
     // Constructeur
     public function __construct($args = null) {
@@ -24,39 +23,28 @@ class pathologie {
         }
     }
 
-
     /**
      * @return mixed
      */
-    public function getIdP()
+    public function getMeridien()
     {
-        return $this->idP;
+        return $this->meridien;
     }
 
     /**
      * @return mixed
      */
-    public function getMer()
+    public function getSymptome()
     {
-        return $this->mer;
+        return $this->symptome;
     }
 
     /**
      * @return mixed
      */
-    public function getType()
+    public function getDescription()
     {
-        return $this->type;
+        return $this->description;
     }
-
-    /**
-     * @return mixed
-     */
-    public function getDesc()
-    {
-        return $this->desc;
-    }
-
-
 
 }

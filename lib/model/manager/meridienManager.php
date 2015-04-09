@@ -1,5 +1,4 @@
 <?php
-include('connexion_sql.php');
 /**
  * Created by PhpStorm.
  * User: lbl

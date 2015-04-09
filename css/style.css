@@ -173,6 +173,14 @@ body
   width:20px;/*adjust your width */
 }
 
+.checkboxItem
+{
+  display: inline-block;
+}
+
+label {
+  display: inline-block;
+}
 
 .checkbox_types_patho{
   background-color: #ffffff;
@@ -198,4 +206,13 @@ clear:both
   display: block;
   text-align:center;
 
+}
+
+table
+{
+  border-collapse: collapse;
+}
+td
+{
+  border : 1px solid black;
 }
