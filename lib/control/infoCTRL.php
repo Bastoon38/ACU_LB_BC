@@ -5,7 +5,7 @@ $modUser = new userModel();
 
 $listUser = $modUser->getAll();
 $test = $modUser->getById(1);*/
-
-include_once('lib/vue/info.php');
-
+$test = new infoObj();
+//include_once('lib/vue/info.php');
+$test->display();
 ?>

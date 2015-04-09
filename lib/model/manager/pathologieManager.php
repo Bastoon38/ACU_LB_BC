@@ -31,16 +31,9 @@ class pathologieManager {
     }
 
 
-    public function getPatho($meridien)
+
+    public function getPatho($meridien,$type,$carac)
     {
-
-        $query = $this->_bdd->prepare('SELECT * FROM patho WHERE ');
-        $query->execute();
-
-        while ($donnees = $query->fetch()) {
-            array_push($this->arrayTypePathologie,  new pathologie($donnees));
-        }
-
-        return $this->arrayTypePathologie;
+        
     }
 }

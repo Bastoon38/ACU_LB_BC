@@ -13,7 +13,5 @@
     {
         echo file_get_contents('/fragments/connexion.txt',true);
     }
-
-
     echo file_get_contents('/fragments/footer.txt',true);
 ?>

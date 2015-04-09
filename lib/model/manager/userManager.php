@@ -1,5 +1,4 @@
 <?php
-include('connexion_sql.php');
 class userModel {
 
     private $_bdd;

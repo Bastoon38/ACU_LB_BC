@@ -1,4 +1,4 @@
-<form method="post" action="index.php?pageID=patho">
+<form method="post" action="index.php?pageID=resultats">
 
 <div class="checkbox_meridien">
     <div class="checkbox_titre">
@@ -21,37 +21,37 @@
     </div>
     <div class="col">
 
-	        <input type="checkbox" name="DuMai" id="DuMai" />
+	        <input type="checkbox" name="meridien[]" id="DuMai" value="DuMai"/>
 	        <label for="DuMai">Du Mai</label>
-	        <input type="checkbox" name="Estomac" id="Estomac" />
+	        <input type="checkbox" name="meridien[]" id="Estomac" value="Estomac"/>
 	        <label for="Estomac">Estomac</label>
-	        <input type="checkbox" name="Foie" id="Foie" />
+	        <input type="checkbox" name="meridien[]" id="Foie" value="Foie"/>
 	        <label for="Foie">Foie</label>
-	        <input type="checkbox" name="GrosIntestin" id="GrosIntestin" />
+	        <input type="checkbox" name="meridien[]" id="GrosIntestin" value="GrosIntestin"/>
 	        <label for="GrosIntestin">Gros intestin</label>
-	        <input type="checkbox" name="IntestinGrêle" id="IntestinGrêle" />
+	        <input type="checkbox" name="meridien[]" id="IntestinGrêle" value="IntestinGrêle"/>
 	        <label for="IntestinGrêle">Intestin Grêle</label>
-	        <input type="checkbox" name="ProtecteurDuCoeur" id="ProtecteurDuCoeur" />
+	        <input type="checkbox" name="meridien[]" id="ProtecteurDuCoeur" value="ProtecteurDuCoeur"/>
 	        <label for="ProtecteurDuCoeur">Protecteur du coeur</label>
     </div>
     <div class="col">
 
-	        <input type="checkbox" name="Poumon" id="Poumon" />
+	        <input type="checkbox" name="meridien[]" id="Poumon" value="Poumon"/>
 	        <label for="Poumon">Poumon</label>
-	        <input type="checkbox" name="Rein" id="Rein" />
+	        <input type="checkbox" name="meridien[]" id="Rein" value="Rein"/>
 	        <label for="Rein">Rein</label>
-	        <input type="checkbox" name="RenMai" id="RenMai" />
+	        <input type="checkbox" name="meridien[]" id="RenMai" value="RenMai"/>
 	        <label for="RenMai">Ren Mai</label>
-	        <input type="checkbox" name="RatePancreas" id="RatePancreas" />
+	        <input type="checkbox" name="meridien[]" id="RatePancreas" value="RatePancreas"/>
 	        <label for="RatePancreas">Rate Pancréas</label>
-	        <input type="checkbox" name="TripleRechauffeur" id="TripleRechauffeur" />
+	        <input type="checkbox" name="meridien[]" id="TripleRechauffeur" value="TripleRechauffeur"/>
 	        <label for="TripleRechauffeur">Triple réchauffeur</label>
-	        <input type="checkbox" name="Vessie" id="Vessie" />
+	        <input type="checkbox" name="meridien[]" id="Vessie" value="Vessie"/>
 	        <label for="Vessie">Vessie</label>
 	          </div>
               <div class="col">
 
-	        <input type="checkbox" name="VesiculeBiliaire" id="VesiculeBiliaire" />
+	        <input type="checkbox" name="meridien[]" id="VesiculeBiliaire" value="VesiculeBiliaire"/>
 	        <label for="VesiculeBiliaire">Vésicule Biliaire</label>
 
     </div></br>
@@ -65,15 +65,15 @@
 	</div>
 
   <div class="col">
-       <input type="checkbox" name="meridien" id="meridien" />
+       <input type="checkbox" name="type[]" id="meridien" value="meridien"/>
        <label for="meridien">Méridien</label>
-       <input type="checkbox" name="organe" id="organe" />
+       <input type="checkbox" name="type[]" id="organe" value="organe"/>
        <label for="organe">Organe/Viscère</label>
-       <input type="checkbox" name="luo" id="luo" />
+       <input type="checkbox" name="type[]" id="luo" value="luo"/>
        <label for="luo">Luo</label>
-       <input type="checkbox" name="vaisseaux" id="vaisseaux" />
+       <input type="checkbox" name="type[]" id="vaisseaux" value="vaisseaux"/>
        <label for="vaisseaux">Merveilleux vaisseaux</label>
-	   <input type="checkbox" name="jingjin" id="jingjin" />
+	   <input type="checkbox" name="type[]" id="jingjin" value="jingjin"/>
 	   <label for="jingjin">Jing Jin</label>
     </div></br>
     </div>
@@ -86,17 +86,17 @@
 	</div>
 
    <div class="col">
-       <input type="checkbox" name="plein" id="plein" />
+       <input type="checkbox" name="type[]" id="plein" value="plein"/>
        <label for="plein">Plein</label>
-       <input type="checkbox" name="chaud" id="chaud" />
+       <input type="checkbox" name="type[]" id="chaud" value="chaud"/>
         <label for="chaud">Chaud</label>
-       <input type="checkbox" name="vide" id="vide" />
+       <input type="checkbox" name="type[]" id="vide" value="vide"/>
         <label for="vide">Vide</label>
-       <input type="checkbox" name="froid" id="froid" />
+       <input type="checkbox" name="type[]" id="froid" value="froid"/>
        <label for="froid">Froid</label>
-	   <input type="checkbox" name="interne" id="interne" />
+	   <input type="checkbox" name="type[]" id="interne" value="interne"/>
 	    <label for="interne">Interne</label>
-	   <input type="checkbox" name="externe" id="externe" />
+	   <input type="checkbox" name="type[]" id="externe" value="externe"/>
 	    <label for="externe">Externe</label>
    </div></br>
 </div>
