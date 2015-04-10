@@ -41,6 +41,7 @@ class accueilCTRLObj {
 
     public function deconnexion()
     {
+        unset($_SESSION['prenom']);
         session_destroy();
     }
 

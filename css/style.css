@@ -148,14 +148,21 @@ th
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 100%;
 }
 
 #pathoForm fieldset
 {
   margin-top: 10px;
   margin-bottom: 10px;
+  border : solid 1px #ef705b;
 }
+
+#pathoForm legend
+{
+  color: #595855;
+}
+
 
 #inscription {
   display: block;

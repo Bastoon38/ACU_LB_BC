@@ -29,7 +29,7 @@ class resultat {
                        '<td>'.$patho->getDescription().'</td>'.
                        '<td>'.$patho->getSymptome().'</td></tr>';
             }
-            $fragment .= '</thead>';
+            $fragment .= '</table>';
         }
         else
         {

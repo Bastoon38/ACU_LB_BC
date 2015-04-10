@@ -95,7 +95,7 @@
 	</div>
 
 	<div class="envoi">
-		<input type="submit" value="envoyer" />
+		<input type="submit" value="Filtrer" />
 	</div>
 
 </form>
