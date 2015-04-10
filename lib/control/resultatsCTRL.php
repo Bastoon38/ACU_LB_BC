@@ -13,9 +13,11 @@ class resultatsCTRL {
     private $type;
     private $carac;
     private $manPatho;
+    private $keyword;
 
     function __construct()
     {
+        $this->keyword = '';
         $this->vue = new resultat();
         $this->manPatho = new pathologieManager();
     }
@@ -44,6 +46,11 @@ class resultatsCTRL {
     public function setCarac($carac)
     {
         $this->carac = $carac;
+    }
+
+    public function setKeyword($keyword)
+    {
+        $this->keyword = $keyword;
     }
 
 }

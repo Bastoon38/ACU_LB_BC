@@ -1,28 +1,3 @@
-body
-{
-  background-image: url('../img/background/default.png');
-}
-
-.content
-{
-  padding-top: 40px;
-}
-
-.alert
-{
-  color : #ff0000;
-}
-
-.success
-{
-  color : #00ba10;
-}
-
-.container
-{
-  margin-top: 40px;
-}
-
 /**HEADER**/
 .header
 {
@@ -50,7 +25,7 @@ body
 
 }
 
-
+/**Navigation**/
 .nav
 {
   display: inline-block;
@@ -82,34 +57,44 @@ body
   border-bottom: 3px solid #FFFFFF;
 }
 
-.footer
+/**Contenu**/
+body
 {
-  display: block;
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  background-image: url('../img/background/dark.png');
-  color : #FFFFFF;
-  border-top: 4px solid #ef705b;
-  margin: 0 0 0 -8px;
+  background-image: url('../img/background/default.png');
 }
-
 
 #titre_principal
 {
   display: inline-block;
 }
 
+.content
+{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 
-/*******/
+.alert
+{
+  color : #ff0000;
+}
+
+.success
+{
+  color : #00ba10;
+}
+
+.container
+{
+  margin-top: 40px;
+}
+
 .inscription
 {
   background-color: #2ecc71;
   border: solid;
 }
 
-
-/******/
 .pathologie
 {
   list-style-type: none;
@@ -138,12 +123,9 @@ body
   background-color: #FFFFFF;
 }
 
-.formulaire input[type=text] input[type=mail]
-{
-  width: 250px;
-}
 
-.formulaire label {
+.formulaire label
+{
   width: 110px;
   display: inline-block;
   vertical-align: top;
@@ -151,17 +133,12 @@ body
 }
 
 
-.checkbox_meridien{
-  background-color: #6c6c70;
-  border: solid;
-  border-color: #ef705b;
+.checkbox_meridien
+{
   clear:both
 }
 
-.col{
-  /*float:left;
-  /*width:120px;/*adjust your width */
-}
+
 .col label, .col input
 {
   display:inline-block;
@@ -183,23 +160,28 @@ label {
 }
 
 .checkbox_types_patho{
-  background-color: #ffffff;
-  border: solid;
-  border-color: #aeb1ab;
   clear:both
 }
 
 .checkbox_caracteristique
 {
-background-color: #6c6c70;
-border: solid;
-border-color: #ef705b;
-clear:both
+  clear:both
 }
 
 
 
 /****** FOOTER *******/
+.footer
+{
+  display: block;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-image: url('../img/background/dark.png');
+  color : #FFFFFF;
+  border-top: 4px solid #ef705b;
+  margin: 0 0 0 -8px;
+}
 
 .copyright{
 
