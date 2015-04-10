@@ -13,7 +13,7 @@ class resultat {
         $fragment ='';
         if(!empty($row))
         {
-            $fragment = '<table>
+            $fragment = '<table id="resultat">
                <caption>Pathologies</caption>
                <thead> <!-- En-tête du tableau -->
                    <tr>

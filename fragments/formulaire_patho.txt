@@ -4,13 +4,13 @@
 			<div class="col">
 				<input type="checkbox" name="meridien[]" id="YinWeiMai" value="Yin Wei Mai"/>
 				<label for="YinWeiMai">Yin Wei Mai</label>
-				<input type="checkbox" name="meridien[]" id="YangQiaoMai" value="YangQiaoMai"/>
+				<input type="checkbox" name="meridien[]" id="YangQiaoMai" value="Yang Qiao Mai"/>
 				<label for="YangQiaoMai">Yang Qiao Mai</label>
-				<input type="checkbox" name="meridien[]" id="YangWeiMai" value="YangWeiMai"/>
+				<input type="checkbox" name="meridien[]" id="YangWeiMai" value="Yang Wei Mai"/>
 				<label for="YangWeiMai">Yang Wei Mai</label>
 				<input type="checkbox" name="meridien[]" id="Coeur" value="Coeur"/>
 				<label for="Coeur">Coeur</label>
-				<input type="checkbox" name="meridien[]" id="ChongMai" value="ChongMai"/>
+				<input type="checkbox" name="meridien[]" id="ChongMai" value="Chong Mai"/>
 				<label for="ChongMai">Chong Mai</label>
 				<input type="checkbox" name="meridien[]" id="DaiMai" value="DaiMai"/>
 				<label for="DaiMai">Dai Mai</label>
@@ -18,7 +18,7 @@
 
 			<div class="col">
 
-				<input type="checkbox" name="meridien[]" id="DuMai" value="DuMai"/>
+				<input type="checkbox" name="meridien[]" id="DuMai" value="Du Mai"/>
 				<label for="DuMai">Du Mai</label>
 				<input type="checkbox" name="meridien[]" id="Estomac" value="Estomac"/>
 				<label for="Estomac">Estomac</label>
@@ -37,7 +37,7 @@
 				<label for="Poumon">Poumon</label>
 				<input type="checkbox" name="meridien[]" id="Rein" value="Rein"/>
 				<label for="Rein">Rein</label>
-				<input type="checkbox" name="meridien[]" id="RenMai" value="RenMai"/>
+				<input type="checkbox" name="meridien[]" id="RenMai" value="Ren Mai"/>
 				<label for="RenMai">Ren Mai</label>
 				<input type="checkbox" name="meridien[]" id="RatePancreas" value="Rate Pancreas"/>
 				<label for="RatePancreas">Rate Pancréas</label>

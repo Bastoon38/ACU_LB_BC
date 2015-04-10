@@ -24,7 +24,7 @@ class resultatsCTRL {
 
     public function filtrer()
     {
-        $liste = $this->manPatho->getPatho($this->meridien, $this->type,$this->carac);
+        $liste = $this->manPatho->getPatho($this->meridien, $this->type,$this->carac,$this->keyword);
 
         //var_dump($liste);
         $this->vue->display($liste);

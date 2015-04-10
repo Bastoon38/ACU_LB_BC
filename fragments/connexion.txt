@@ -1,5 +1,5 @@
 <aside>
-    <form method="post" action="index.php?pageID=accueil" >
+    <form id="connexion" method="post" action="index.php?pageID=accueil" >
         <ul class="formulaire">
             <li>
                 <label for="mail">Email* :</label>
@@ -8,6 +8,9 @@
             <li>
                 <label for="pwd">Mot de passe* :</label>
                 <input type="password" id="pwd" name="pwd" required/>
+            </li>
+            <li>
+               <a href="index.php?pageID=inscription" title="S'inscrire au site">S'inscrire</a>
             </li>
             <li>
                 <input type="submit" value="Connexion"/>

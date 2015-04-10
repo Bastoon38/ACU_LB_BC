@@ -5,10 +5,14 @@
   position: fixed;
   top: 0;
   width: 100%;
-  margin: -8px -8px;
-  padding: 0;
+  margin: -15px 0px;
   border-bottom: 4px solid #ef705b;
   background-image: url('../img/background/dark.png');
+}
+
+#titre_principal
+{
+  display: none;
 }
 
 .header h1
@@ -16,6 +20,7 @@
   font-size: 1em;
   font-weight: normal;
   padding-left: 10px;
+  display: none;
 }
 
 .header h1 a
@@ -29,8 +34,9 @@
 .nav
 {
   display: inline-block;
-  width: 740px;
+  width: 100%;
   text-align: center;
+  font-size: 130%;
 }
 
 .nav ul
@@ -61,6 +67,23 @@
 body
 {
   background-image: url('../img/background/default.png');
+  margin : 0px;
+}
+
+aside
+{
+  display: block;
+  float: right;
+  min-width: 20%;
+  width: 20%;
+  padding: 5px 5px 5px 5px;
+}
+#rss
+{
+  display: block;
+  float: left;
+  min-width: 70%;
+  width: 70%;
 }
 
 #titre_principal
@@ -70,8 +93,7 @@ body
 
 .content
 {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 80px 2% 50px 2%;
 }
 
 .alert
@@ -89,40 +111,59 @@ body
   margin-top: 40px;
 }
 
+table
+{
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+td
+{
+  border : 1px solid #c2c2c2;
+}
+
+th
+{
+  background-color: #e9e9e9;
+  border : 1px solid #c2c2c2;
+}
+
 .inscription
 {
   background-color: #2ecc71;
   border: solid;
 }
 
-.pathologie
+#pathoForm
 {
-  list-style-type: none;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 
-.pathologie li
+#pathoForm fieldset
 {
-  padding-top: 10px;
-  width: 50%;
-  background-color: #006699;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.pathologie td
-{
-  padding-top: 10px;
-  width: 50%;
-  background-color: #006699;
-  border-radius: 6px 6px 0 0;
-  border-bottom-left-radius: 6px 6px ;
-  border-bottom-right-radius: 6px 6px ;
+#inscription {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .formulaire
 {
   list-style-type: none;
-  background-color: #FFFFFF;
 }
-
+.formulaire li
+{
+  margin-bottom: 5px;
+}
 
 .formulaire label
 {
@@ -173,6 +214,7 @@ label {
 /****** FOOTER *******/
 .footer
 {
+  clear: both;
   display: block;
   width: 100%;
   position: fixed;
@@ -180,7 +222,7 @@ label {
   background-image: url('../img/background/dark.png');
   color : #FFFFFF;
   border-top: 4px solid #ef705b;
-  margin: 0 0 0 -8px;
+  margin: 0px;
 }
 
 .copyright{
@@ -190,30 +232,23 @@ label {
 
 }
 
-table
-{
-  border-collapse: collapse;
+
+@media screen and (max-width: 640px) {
+
+
+  .footer
+  {
+    display: none;
+  }
+
+  aside
+  {
+    display: block;
+    float: none;
+  }
+  #rss
+  {
+    display: block;
+    float: none;
+  }
 }
-td
-{
-  border : 1px solid black;
-}
-
-
-/***************** RSS *****************/
-/*h1
-{
-  text-align: center;
-  margin-top: 0px;
-}
-
-.div_rss div
-{
-  width:auto;
-  height:200px;
-  line-height:3em;
-  overflow:scroll;
-  padding:5px;
-}*/
-
-

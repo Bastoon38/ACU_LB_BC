@@ -22,12 +22,7 @@ echo $xslt->transformToXML($xmlDoc);*/
 
 
 //echo '<div style="width:150px;height:150px;line-height:3em;overflow:scroll;padding:5px;">';
-
-echo'<div class="scrollbar" id="style-2">';
-      echo'<div class="force-overflow"></div>';
-    echo'</div>';
-
-echo '<div class="div_rss">';
+echo '<div id="rss">';
 
 $url = "http://www.sante.gouv.fr/spip.php?page=backend&id_rubrique=7";
 $rss = simplexml_load_file($url); // Convertit le document XML en un objet de type SimpleXMLElement.
@@ -39,24 +34,6 @@ echo $rss->channel->title;
 echo '</h1>';
 
 echo '<ul>';
-foreach ($rss->channel->item as $item){
-    $datetime = date_create($item->pubDate);
-    $date = date_format($datetime, 'd-m-Y');
-    echo '<li>'.$date.' : <a href="'.$item->link.'">'.$item->title.'</a> </li>';
-}
-
-foreach ($rss->channel->item as $item){
-    $datetime = date_create($item->pubDate);
-    $date = date_format($datetime, 'd-m-Y');
-    echo '<li>'.$date.' : <a href="'.$item->link.'">'.$item->title.'</a> </li>';
-}
-
-foreach ($rss->channel->item as $item){
-    $datetime = date_create($item->pubDate);
-    $date = date_format($datetime, 'd-m-Y');
-    echo '<li>'.$date.' : <a href="'.$item->link.'">'.$item->title.'</a> </li>';
-}
-
 foreach ($rss->channel->item as $item){
     $datetime = date_create($item->pubDate);
     $date = date_format($datetime, 'd-m-Y');

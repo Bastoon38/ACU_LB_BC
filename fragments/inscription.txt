@@ -1,4 +1,4 @@
-<form method="post" action="index.php?pageID=inscription" >
+<form id="inscription" method="post" action="index.php?pageID=inscription" >
     <ul class="formulaire">
         <li>
             <label for="prenom">Prénom* :</label>

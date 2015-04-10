@@ -33,7 +33,7 @@ class pathologieManager {
 */
 
 
-    public function getPatho($meridien,$type,$carac)
+    public function getPatho($meridien,$type,$carac,$keyword)
     {
         $query = 'SELECT * FROM v_pathologies WHERE 1';
 
@@ -97,7 +97,11 @@ class pathologieManager {
             $query .= $clause;
         }
 
-        var_dump($query);
+        if(strlen($keyword)>0)
+        {
+            $clause =' AND keyword LIKE \'%'.$keyword.'%\'';
+            $query .= $clause;
+        }
 
         $query = $this->_bdd->prepare($query);
         $query->execute();
