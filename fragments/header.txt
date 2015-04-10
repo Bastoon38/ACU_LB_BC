@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="css/style.css" >
         <link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
-        <link rel="icon" type="img/png" href="/img/favicon.png" />
+        <link rel="icon" type="img/png" href="img/favicon.png" />
 
 
 
