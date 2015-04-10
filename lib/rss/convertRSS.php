@@ -35,9 +35,17 @@ echo '</h1>';
 
 echo '<ul>';
 foreach ($rss->channel->item as $item){
-    $datetime = date_create($item->pubDate);
+    $dc = $item->children('http://purl.org/dc/elements/1.1/');
+    $itemDate = date_parse($dc->date);
+    $itemYear = $itemDate['year'];
+    $itemMonth = $itemDate['month'];
+    $itemDay = $itemDate['day'];
+
+    $itemOutputDate = $itemDay.'-'.$itemMonth.'-'.$itemYear;
+
+    $datetime = date_create($item->date);
     $date = date_format($datetime, 'd-m-Y');
-    echo '<li>'.$date.' : <a href="'.$item->link.'">'.$item->title.'</a> </li>';
+    echo '<li>'.$itemOutputDate.' : <a href="'.$item->link.'">'.$item->title.'</a> </li>';
 }
 echo '</ul>';
 echo '</div>';
