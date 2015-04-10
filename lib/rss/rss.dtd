@@ -1,0 +1,13 @@
+<!-- elements de base-->
+<!ELEMENT title (#PCDATA )>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+
+<!-- noeuds -->
+<!ELEMENT channel ((title|link|description|item)+)>
+<!ELEMENT item ((title|description)+)>
+
+<!-- Racine -->
+<!ELEMENT rss ((channel)*)>
+<!ATTLIST rss
+version CDATA #REQUIRED

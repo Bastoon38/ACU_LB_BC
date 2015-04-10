@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Exemple de flux RSS</title>
+        <link>http://xml.toutestfacile.com</link>
+        <description>Exemple de flux RSS pour XML Facile!</description>
+        <item>
+            <title>Exemple du jour 1</title>
+            <description>Exemple du jour pour XML Facile 1 !</description>
+        </item>
+        <item>
+            <title>Exemple du jour 2</title>
+            <description>Exemple du jour pour XML Facile 2 !</description>
+        </item>
+        <item>
+            <title>Exemple du jour 3</title>
+            <description>Exemple du jour pour XML Facile 3 !</description>
+        </item>
+    </channel>
+</rss>

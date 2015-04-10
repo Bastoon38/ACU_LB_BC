@@ -2,7 +2,7 @@
 <h1 id="dev_real">Developpements réalisés</h1>
 <p> Nous avons réaliser ce site internet dans le but de rendre accessible des informations relative
 à une association d’acupuncteurs en médecine traditionnelle chinoise.
-les principales fonctionnalités sont:
+les principales fonctionnalités sont:</p>
 <ul>
     <li>de disposer d’un service en ligne leur permettant de consulter la liste des symptômes des
         principales pathologies en acupuncture (voir table 10.1)</li>
@@ -10,7 +10,7 @@ les principales fonctionnalités sont:
         pathologie, choix des méridiens 1, etc., voir la table 10.2)</li>
     <li>de rechercher les pathologies comportant certains symptômes</li>
 </ul>
-</p>
+
 <h1 id="sources">Sources</h1>
 <p> Je sais pas quoi mettre </p>
 <h1 id="auteurs">Auteurs</h1>
@@ -19,12 +19,49 @@ les principales fonctionnalités sont:
     <li>Cecillon Bastien</li>
 </ul>
 <h1 id="ress_biblio">Ressources bibliographiques</h1>
-<p> Pas besoin on est trop fort... ^^ </p>
-<h1 id="webographie">Webographie</h1>
+<p> Nous avons eu à notre disposition plusieurs cours en format PDF: </p>
 <ul>
-    <li><a href="http://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/votre-premiere-page-web-en-html">
+ <li><a href="http://localhost/Langage_Internet/MainProject/PDF/coursHTML.pdf">Cours 1: Accessibilité, HTML et CSS</a></li>
+ <li>Cours 2: Web dynamique</li>
+ <li>Cours 3: PHP avancé</li>
+ <li>Cours 4: XML/XSL</li>
+ <li>Cours API SAX et DOM, FOP</li>
+ <li>Cours Introduction WebService et REST</li>
+</ul>
+<h1 id="webographie">Webographie</h1>
+<h3 id="HTML">HTML :</h3>
+<ul>
+    <li><a href="http://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3">
     OpenClassRoom -  Apprenez à créer votre site web avec HTML5 et CSS3</a></li>
-    <li><a href="http://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql">
-    OpenClassRoom -  Concevez votre site web avec PHP et MySQL</a></li>
+</ul>
+<h3 id="PHP">PHP :</h3>
+<ul>
+    <li><a href="http://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3">
+    OpenClassRoom -  Apprenez à créer votre site web avec HTML5 et CSS3</a></li>
+</ul>
+<h3 id="XML">XML :</h3>
+<h4 id="XML_tutoriel">Tutoriel :</h4>
+<ul>
+    <li><a href="http://www.gchagnon.fr/cours/xml/index.html">
+    Tutoriel - Les bases du format XML, notions sur sa manipulation et quelques exemples</a></li>
+    <li><a href="http://www.gchagnon.fr/cours/xml/schema.html">
+    Tutoriel - Initiation aux Schema XML 1</a></li>
+    <li><a href="http://www.w3schools.com/Schema/">
+    Tutoriel - Initiation aux Schema XML 2</a></li>
+    <li><a href="http://www.w3schools.com/dtd/">
+    Tutoriel - DTD</a></li>
+</ul>
+<h4 id="XML_validateur">Validateur :</h4>
+<ul>
+    <li><a href="http://www.utilities-online.info/xsdvalidation/#.VSd-n_msUXE">
+    Validateur - Document XML et/ou XSD</a></li>
+</ul>
+
+<h3 id="XSL">XSL :</h3>
+<ul>
+    <li><a href="http://www.zvon.org/xxl/XSLTutorial/Books/Book1/index.html">
+    Tutoriel - Présentation du XSL pour débuter</a></li>
+    <li><a href="http://www.zvon.org/xxl/XSLTutorial/Books/Book1/index.html">
+    Tutoriel - LE site de référence de Dave Pawson en XSL1</a></li>
 </ul>
 </section>

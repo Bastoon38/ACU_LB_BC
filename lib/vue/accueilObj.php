@@ -30,6 +30,9 @@ class accueilObj {
         {
             echo file_get_contents('/fragments/connexion.txt',true);
         }
+
+        include_once('/lib/rss/convertRSS.php');
+
         echo file_get_contents('/fragments/footer.txt',true);
     }
 
