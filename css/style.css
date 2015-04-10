@@ -137,6 +137,12 @@ th
   border : 1px solid #c2c2c2;
 }
 
+caption
+{
+  color: #595855;
+  font-size:120%;
+}
+
 .inscription
 {
   background-color: #2ecc71;
@@ -224,7 +230,27 @@ label {
   clear:both
 }
 
+.section h1
+{
+  border-bottom: double 1px;
+  border-color: #ef705b;
+  color: #595855;
+  font-size:150%;
+  /*background-color: #41403e;
+  border: solid;
+  border-color: #42b175;*/
+}
 
+.section h2
+{
+  /*border-bottom: double 1px;
+  border-color: #2cef14;*/
+  font-size:120%;
+  color: #595855;
+  /*background-color: #41403e;
+  border: solid;
+  border-color: #42b175;*/
+}
 
 /****** FOOTER *******/
 .footer
@@ -269,28 +295,4 @@ label {
     display: block;
     float: none;
   }
-}
-
-
-
-.section h1
-{
-  border-bottom: double 1px;
-  border-color: #ef705b;
-  color: #595855;
-  font-size:150%;
-  /*background-color: #41403e;
-  border: solid;
-  border-color: #42b175;*/
-}
-
-.section h2
-{
-  /*border-bottom: double 1px;
-  border-color: #2cef14;*/
-  font-size:120%;
-  color: #595855;
-  /*background-color: #41403e;
-  border: solid;
-  border-color: #42b175;*/
 }
